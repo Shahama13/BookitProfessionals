@@ -14,8 +14,9 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#000000"
+      },
+      "package": "com.shahama7c.BookitProfessionals"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -25,11 +26,26 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "#000000",
           "image": "./assets/splash-icon.png"
         }
       ],
-      "react-native-edge-to-edge"
-    ]
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ],
+      "react-native-edge-to-edge",
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "cabc0f10-c216-4f7f-bcd5-170e5a045874"
+      }
+    },
+    "owner": "shahama7c"
   }
 }
