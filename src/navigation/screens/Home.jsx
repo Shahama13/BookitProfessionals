@@ -119,7 +119,7 @@ const Home = () => {
               <Image
                 className="w-full h-56 rounded-md relative object-center bg-black opacity-60"
                 source={{
-                  uri: "https://images.pexels.com/photos/5705052/pexels-photo-5705052.jpeg?auto=compress&cs=tinysrgb&w=600",
+                  uri: "https://images.pexels.com/photos/6899550/pexels-photo-6899550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
                   // uri: "https://images.pexels.com/photos/3992873/pexels-photo-3992873.jpeg?auto=compress&cs=tinysrgb&w=600",
                 }}
               />
@@ -180,8 +180,6 @@ const Home = () => {
               )}
             </View>
             <View className="mt-9 px-3 pb-10">
-            
-
               <View className="px-1 mt-6 w-[100%] flex-row items-center ">
                 <Text className="font-Mons w-[40%] bg-blue-50 pl-2">
                   Upcoming
